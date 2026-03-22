@@ -52,3 +52,7 @@ body {
   font-family: "Oooh Baby", serif;
   font-size: 20px;
 }
+
+.sm-line-height {
+  line-height: 1em;
+}
