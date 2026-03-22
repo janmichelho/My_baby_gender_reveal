@@ -22,7 +22,7 @@ body {
 }
 
 .content {
-  position: relative;
+  position: absolute;
   max-width: 380px;
   margin: auto;
 
