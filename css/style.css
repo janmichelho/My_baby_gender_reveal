@@ -37,6 +37,7 @@ body {
   right: 0;
   
   overflow-y: auto; /* scroll interno */
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -44,7 +45,6 @@ body {
   margin: auto;
 
   height: 100vh;
-  overflow: hidden; /* 🔥 CLAVE */
 
   position: relative;
 }
@@ -55,8 +55,8 @@ body {
   }
 
   .content {
-    max-width: 85%;
-    margin-top: 28vh; /* ajusta para móvil */
+    top: 28vh;
+    height: 55vh;
   }
 }
 
