@@ -18,12 +18,18 @@ body {
 
   z-index: -1;
 }
-  
+
 }
 
 .content {
-  position: absolute;
- 
+  position: relative;
+  max-width: 380px;
+  margin: auto;
+
+  margin-top: 35vh; /* controla dónde empieza el texto */
+
+  padding: 20px;
+
   top: 32%;   /* 🔥 AJUSTE FINO (inicio del área blanca) */
   bottom: 18%; /* 🔥 evita que salga por abajo */
 
@@ -31,7 +37,6 @@ body {
   right: 0;
   
   overflow-y: auto; /* scroll interno */
-  padding: 20px;
 }
 
 .wrapper {
@@ -48,14 +53,10 @@ body {
   .bg {
     max-width: 100%; /* ocupa todo el ancho */
   }
-  
-  .wrapper {
-    max-width: 90%;
-  }
-  
+
   .content {
-    top: 30%;
-    bottom: 20%;
+    max-width: 85%;
+    margin-top: 28vh; /* ajusta para móvil */
   }
 }
 
@@ -92,7 +93,7 @@ body {
           transform: rotate(-1deg);
   -moz-transform: rotate(-1deg);
   -o-transform: rotate(-1deg);
-  
+
 
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
