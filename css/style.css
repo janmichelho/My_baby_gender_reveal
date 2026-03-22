@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+  max-width: 500px; /* ajusta según tu imagen */
+  height: 100vh;
+
+  background: url("images/Intro.png") no-repeat top center;
+  background-size: contain;
+
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  max-width: 380px;
+  margin: auto;
+
+  margin-top: 35vh; /* controla dónde empieza el texto */
+
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .bg {
+    max-width: 100%; /* ocupa todo el ancho */
+  }
+
+  .content {
+    max-width: 85%;
+    margin-top: 28vh; /* ajusta para móvil */
+  }
+}
+
+@media (min-width: 1000px) {
+  .content {
+    margin-top: 35vh;
+  }
+}
