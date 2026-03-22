@@ -22,12 +22,8 @@ body {
 }
 
 .content {
-  position: relative;
-  max-width: 380px;
-  margin: auto;
-  margin-top: 35vh; /* controla dónde empieza el texto */
-  padding: 20px;
-
+  position: absolute;
+ 
   top: 32%;   /* 🔥 AJUSTE FINO (inicio del área blanca) */
   bottom: 18%; /* 🔥 evita que salga por abajo */
 
@@ -35,6 +31,7 @@ body {
   right: 0;
   
   overflow-y: auto; /* scroll interno */
+  padding: 20px;
 }
 
 .wrapper {
@@ -51,10 +48,14 @@ body {
   .bg {
     max-width: 100%; /* ocupa todo el ancho */
   }
-
+  
+  .wrapper {
+    max-width: 90%;
+  }
+  
   .content {
-    max-width: 85%;
-    margin-top: 28vh; /* ajusta para móvil */
+    top: 30%;
+    bottom: 20%;
   }
 }
 
