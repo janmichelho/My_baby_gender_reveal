@@ -13,7 +13,7 @@ body {
   max-width: 500px; /* ajusta según tu imagen */
   height: 100vh;
 
-  background: url("images/Intro.png") no-repeat top center;
+  background: url("../images/Intro.png") no-repeat top center;
   background-size: contain;
 
   z-index: -1;
