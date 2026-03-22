@@ -23,15 +23,15 @@ body {
 
 .content {
   position: absolute;
-  max-width: 380px;
+  /*max-width: 380px;
   margin: auto;
 
   margin-top: 35vh; /* controla dónde empieza el texto */
 
   padding: 20px;
 
-  top: 32%;   /* 🔥 AJUSTE FINO (inicio del área blanca) */
-  bottom: 18%; /* 🔥 evita que salga por abajo */
+  top: 32vh;   /* 🔥 AJUSTE FINO (inicio del área blanca) */
+  height: 50vh; /* 🔥 ESTO ACTIVA EL SCROLL */
 
   left: 0;
   right: 0;
